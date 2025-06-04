@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./img/favicon.ico">
+  <!-- Basic Meta Tags -->
+<title>YouTube Homepage Clone | VasanthRizz</title>
+<meta name="description" content="A modern and responsive YouTube homepage clone built by Vasanth Rizz. Styled with sleek UI and functional layout. Perfect for design inspiration.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+<!-- Open Graph Meta Tags (for Facebook, LinkedIn, etc.) -->
+<meta property="og:title" content="YouTube Homepage Clone | VasanthRizz">
+<meta property="og:description" content="Explore a clean and responsive YouTube homepage UI clone designed by Vasanth Rizz. Ideal for UI/UX inspiration.">
+<meta property="og:image" content="./img/banner.png"> <!-- Replace with actual image URL -->
+<meta property="og:url" content="https://yourdomain.com"> <!-- Replace with your domain -->
+<meta property="og:type" content="website">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="YouTube Homepage Clone | VasanthRizz">
+<meta name="twitter:description" content="A visually polished YouTube homepage clone built by Vasanth Rizz. Great example of responsive UI design.">
+<meta name="twitter:image" content="./img/banner.png"> <!-- Replace with actual image URL -->
+<meta name="twitter:site" content="@YourTwitterHandle"> <!-- Optional -->
+
+<!-- Instagram is not a platform that uses meta tags for previews like Twitter/Facebook, 
+     but you can still add a note for when sharing via website bios etc. -->
+<meta name="author" content="Vasanth Rizz">
+
+ 
+  <!-- Linking Unicons For Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="sidebar-hidden">
+  <div class="container">
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="./img/logo.png" alt="Logo" class="logo-image" width="">
+            <h2 class="logo-text">VasanthRizz</h2>
+          </a>
+        </div>
+        
+        <div class="nav-section nav-center">
+          <form action="#" class="search-form">
+            <input type="search" placeholder="Search" class="search-input" required>
+            <button class="nav-button search-button">
+              <i class="uil uil-search"></i>
+            </button>
+          </form>
+          <button class="nav-button mic-button">
+            <i class="uil uil-microphone"></i>
+          </button>
+        </div>
+        
+        <div class="nav-section nav-right">
+          <button class="nav-button search-button">
+            <i class="uil uil-search"></i>
+          </button>
+          <button class="nav-button theme-button">
+            <i class="uil uil-moon"></i>
+          </button>
+          <img src="./img/user.png" alt="User Image" class="user-image">
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Main Layout -->
+    <main class="main-layout">
+      <div class="screen-overlay"></div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="./img/logo.png" alt="Logo" class="logo-image">
+            <h2 class="logo-text">VasanthRizz</h2>
+          </a>
+        </div>
+  
+        <div class="links-container">
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-estate"></i> Home
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-video"></i> Shorts
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-tv-retro"></i> Subscriptions
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <h4 class="section-title">You</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-user-square"></i> Your channel
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-history"></i> History
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-clock"></i> Watch later
+            </a>
+          </div>
+          <div class="section-separator"></div>
+          
+          <div class="link-section">
+            <h4 class="section-title">Explore</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-fire"></i> Trending
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-music"></i> Music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-basketball"></i> Gaming
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-trophy"></i> Sports
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <h4 class="section-title">More from YouTube</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-shield-plus"></i> YouTube Plus
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-headphones-alt"></i> YouTube Music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-airplay"></i> YouTube Kids
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-setting"></i> Settings
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-file-medical-alt"></i> Report
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-question-circle"></i> Help
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-exclamation-triangle"></i> Feedback
+            </a>
+          </div>
+        </div>
+      </aside>
+  
+      <div class="content-wrapper">
+        <!-- Category List -->
+        <div class="category-list">
+          <button class="category-button active">All</button>
+          <button class="category-button">Website</button>
+          <button class="category-button">Music</button>
+          <button class="category-button">Gaming</button>
+          <button class="category-button">Node.js</button>
+          <button class="category-button">JavaScript</button>
+          <button class="category-button">React.js</button>
+          <button class="category-button">TypeScript</button>
+          <button class="category-button">Coding</button>
+          <button class="category-button">Next.js</button>
+          <button class="category-button">Data analysis</button>
+          <button class="category-button">Web design</button>
+          <button class="category-button">HTML</button>
+          <button class="category-button">Tailwind</button>
+          <button class="category-button">CSS</button>
+          <button class="category-button">Express.js</button>
+        </div>
+        
+        <!-- Video List -->
+        <div class="video-list">
+          <a href="https://youtu.be/H0w-at3dWkY?si=Oa8mf33MQ-cT7IpB" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u1.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">3:36</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p1.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">why mona - Wannabe [16D AUDIO | NOT 8D]🎧</h2>
+                <p class="channel-name">8D MUSIX - LYF</p>
+                <p class="views">184K Views • 2 years ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/hLLiQB3kAn0?si=aiyjHSkh7kGXRnyj" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u2.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">2:45</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p2.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">நான் உன் கனவுகளில் நாள்கள் கடக்கின்றேன்❤️/ love Song / Rizz-music #rizzmusic</h2>
+                <p class="channel-name">Rizz-music</p>
+                <p class="views">42K Views • 1 month ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/dH1Hi8QbN2M?si=ZT_U6ElHFnn9Auag" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u3.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">29:43</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p3.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Annabelle Doll Missing?! 😱 | Madan Gowri | Tamil | MG Squad 🖖🏻</h2>
+                <p class="channel-name">Madan Gowri</p>
+                <p class="views">456K views • 2 days ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/0P9VX7tGdUU?si=cvgabV5Nz5BZtyEA" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u4.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">12:39</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p4.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">5 Lakh WATERCOOLED 🌊 PC Build - RTX 4090 PC Setup | Chinese Waterblock PC Custom Loop Setup</h2>
+                <p class="channel-name">A2D Channel</p>
+                <p class="views">
+                  390K views • 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/4-qyPGbLp6Y?si=HDD5aMYs5pDHRfCZ" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u5.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">19:27</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p5.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">தப்பி தவறி இந்த பேயோட பேர மட்டும் சொல்லிடாதீங்க! | Horror Movir Explained in Tamil | Reelcut</h2>
+                <p class="channel-name">
+                  REEL CUT</p>
+                <p class="views">
+                  75K views •  6 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/WW9d0a_PdLg?si=gJ36aiDqVuzUFcVq" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u6.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">16:24</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p6.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Create A Draggable Card Slider in HTML CSS and Vanilla JavaScript</h2>
+                <p class="channel-name">
+                  Behindwoods TV</p>
+                <p class="views">14.2K Views • 4 days ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/EAF3OPuY0NY?si=hbXGBvX1ffiHoe1i" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u7.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">37:13</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p7.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Laptop for Students | Tender to purchase 20 lakh laptops | Tamil Nadu | Sun News</h2>
+                <p class="channel-name">
+                  Sun News
+                  </p>
+                <p class="views">1M Views • 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/Y949Dm4Sts0?si=Ra2usU9dRppPCij1" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u8.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">9:27</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p8.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Thiruvalluvar Paavangal | Gopi & Sudhakar | Parithabangal</h2>
+                <p class="channel-name">
+                  Parithabanga</p>
+                <p class="views">
+                  3.6M views • 10 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/bEs1GldgRW0?si=iBifCwcTm7yuIJCH" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u9.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">25:27</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p9.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">PEELINGS Full Video with Lyrics | Pushpa 2 The Rule | Allu Arjun | Rashmika Mandanna | Sukumar | DSP</h2>
+                <p class="channel-name">
+                  T-Series Telugu</p>
+                <p class="views">10M Views • 9 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/kZaqxQfGNN8?si=whwHL4EP4-3o-JGH" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u10.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">2:24</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/user.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">website 💥 Free website 😱 Bluetooth headphones 🎧 Vasanthrizz ⚡ #vasanthrizz #vasanthrizzwebsite</h2>
+                <p class="channel-name">
+                  Vasanth Rizz</p>
+                <p class="views">85K Views • 2 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/8jhC9xnJGYU?si=J20M2dtyOol7GrL2" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u11.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">20:30</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p11.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">23 min of songs to boost your Aura 🔥</h2>
+                <p class="channel-name">
+                  Unstoppable Music</p>
+                <p class="views">6.4M Views • 3 weeks ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/FYErehuSuuw?si=_7T-vpJPcvLVl1H8" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u12.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">11:13</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p12.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Mastering HTML Basics and Beyond | Your Ultimate Guide to Begin Web Development 💻 in Tamil | EMC</h2>
+                <p class="channel-name">Error Makes Clever</p>
+                <p class="views">2.3M Views • 2 years ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/1VbyYCnShmE?si=cSDayW2-6T7COSLb" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u13.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">19:07</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p13.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">22 kills💪SCAR+MP40 99% Headshot Rate⚡| Duo Vs Squad Full Gameplay | intel i5 🖥 Freefire</h2>
+                <p class="channel-name">BLACK ZUMBI</p>
+                <p class="views">375K views • 2 weeks ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://youtu.be/7CKmKN3bJfM?si=ZPY_B0asT5jw3V1R" class="video-card">
+            <div class="thumbnail-container">
+              <img src="./img/u14.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:37:13</p>
+            </div>
+            <div class="video-info">
+              <img src="./img/p14.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Comalis-ah பாக்கலாமா..😎 | Comali Promo | Cooku with Comali 6 | Coming soon |</h2>
+                <p class="channel-name">
+                  Vijay Television</p>
+                <p class="views">556K Views • 1 month ago</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
+</body>
+</html>
